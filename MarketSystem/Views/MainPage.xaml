@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MarketSystem.MainPage"
+             Title=""
              BackgroundColor="White">
 
     <ScrollView>
@@ -16,13 +17,19 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="REGISTRAR PRODUCTO" 
+                Text="GESTIÓN DE PRODUCTOS" 
+                Clicked="ProductRegisterPageClicked"
                 FontFamily="OpenSansRegular"
-                BackgroundColor="Green"
+                BackgroundColor="#00004d"
+                TextColor="White"
+                BorderColor="Black"
+                BorderWidth="2"
                 SemanticProperties.Hint="Register new product"
                 HeightRequest="65"
-                Margin="0,0,340,0"/>
+                Margin="0,0,0,500"/>
+
         </HorizontalStackLayout>
     </ScrollView>
 
+   
 </ContentPage>

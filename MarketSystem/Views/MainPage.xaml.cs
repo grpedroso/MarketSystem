@@ -1,4 +1,6 @@
-﻿namespace MarketSystem
+﻿using MarketSystem.Views;
+
+namespace MarketSystem
 {
     public partial class MainPage : ContentPage
     {
@@ -8,9 +10,9 @@
             InitializeComponent();
         }
 
-        private void ProductRegisterPageClicked(object sender, EventArgs e)
+        private async void ProductRegisterPageClicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new ProductManager());
         }
     }
 
