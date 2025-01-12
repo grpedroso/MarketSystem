@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarketSystem.MainPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <HorizontalStackLayout
+            Padding="120,0"
+            Spacing="1">
+
+            <Image
+                Source="mercado.png"
+                HeightRequest="500"
+                HorizontalOptions="Start" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="REGISTRAR PRODUCTO" 
+                FontFamily="OpenSansRegular"
+                BackgroundColor="Green"
+                SemanticProperties.Hint="Register new product"
+                HeightRequest="65"
+                Margin="0,0,340,0"/>
+        </HorizontalStackLayout>
+    </ScrollView>
+
+</ContentPage>
