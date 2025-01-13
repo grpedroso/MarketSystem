@@ -5,8 +5,24 @@
              Title="Productos">
     <VerticalStackLayout>
         <Label 
-            Text="Gestiones tus productos"
+            Text=""
+            FontSize="Large"
+            FontFamily="Titulo"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Button
+          x:Name="newProductBtn"
+          Margin="0,30,0,0"
+          Text="NUEVO PRODUCTO" 
+          Clicked="ProductRegisterPageClicked"
+          FontFamily="OpenSansRegular"
+          BackgroundColor="Green"
+          TextColor="White"
+          BorderColor="Black"
+          BorderWidth="1"
+          HorizontalOptions="Center"
+          SemanticProperties.Hint="Register new product"
+          HeightRequest="65"/>
     </VerticalStackLayout>
 </ContentPage>

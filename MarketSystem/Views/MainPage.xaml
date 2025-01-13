@@ -18,7 +18,7 @@
             <Button
                 x:Name="CounterBtn"
                 Text="GESTIÓN DE PRODUCTOS" 
-                Clicked="ProductRegisterPageClicked"
+                Clicked="ProductManagerPageClicked"
                 FontFamily="OpenSansRegular"
                 BackgroundColor="#00004d"
                 TextColor="White"

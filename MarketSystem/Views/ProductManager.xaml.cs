@@ -6,4 +6,10 @@ public partial class ProductManager : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void ProductRegisterPageClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new ProductRegister());
+    }
+
 }

@@ -10,9 +10,14 @@ namespace MarketSystem
             InitializeComponent();
         }
 
-        private async void ProductRegisterPageClicked(object sender, EventArgs e)
+        private async void ProductManagerPageClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ProductManager());
+        }
+
+        private void CounterBtn_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 
